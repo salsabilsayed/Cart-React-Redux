@@ -1,0 +1,12 @@
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.loading-title{
+    color:#102a42;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}

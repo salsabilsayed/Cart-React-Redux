@@ -1,0 +1,23 @@
+.btn{
+    color: #bb2525;
+    border: 1px solid #bb2525;
+    border-radius: 3px;
+    background-color: transparent;
+    padding:0.6rem 1rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: #e66b6b;
+    border-color: #e66b6b;
+}
+
+.btn-container{
+    text-align: center;
+    margin:2rem 0;
+}
