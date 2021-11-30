@@ -77,7 +77,7 @@ const cartReducer = (state = initialState,action) =>{
                 ...state,
                 data: decrementedData,
                 basketNumber: state.basketNumber - 1,
-                totalPrice: state.totalPrice - (Number(decrementedData[decIndex].price)* decrementedData[decIndex].amount)
+                totalPrice: state.totalPrice - Number(decrementedData[decIndex].price)
             }
 
         case 'REMOVE_ITEM':
